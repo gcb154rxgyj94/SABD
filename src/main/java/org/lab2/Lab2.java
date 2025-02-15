@@ -44,24 +44,29 @@ public class Lab2 {
 
     private static final String CERTIFICATE_PROVIDER = "BC";
     private static final String SIGN_ALGORITHM = "SHA256withRSA";
+    private static final String MESSAGE = "Secret// Message 251;";
 
     public static void main(String[] args) throws Exception {
 
         X509Certificate certificate = getCertificate();
         PrivateKey privateKey = getPrivateKey();
 
-        String secretMessage = "My password is 123456Seven";
-        System.out.println("Original Message : " + secretMessage);
-        byte[] stringToEncrypt = secretMessage.getBytes();
+        System.out.println("Шифруем сообщение : " + MESSAGE + "\n");
+
+        byte[] stringToEncrypt = MESSAGE.getBytes();
         byte[] encryptedData = encryptData(stringToEncrypt, certificate);
-        System.out.println("Encrypted Message : " + new String(encryptedData));
+        System.out.println(new String(encryptedData));
+
         byte[] rawData = decryptData(encryptedData, privateKey);
         String decryptedMessage = new String(rawData);
-        System.out.println("Decrypted Message : " + decryptedMessage);
+        System.out.println("\nДешифрованное сообщение : " + decryptedMessage);
 
+        System.out.println("Подписываем сообщение");
         byte[] signedData = signData(rawData, certificate, privateKey);
-        Boolean check = verifySignedData(signedData);
-        System.out.println(check);
+
+        System.out.println("Верифицируем сообщение");
+        boolean check = verifySignedData(signedData);
+        System.out.println("Результат " + check);
     }
 
     /**
