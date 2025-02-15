@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientData>
+    <client>
+        <name>John Doe</name>
+        <email>john.doe@example.com</email>
+        <phone>+1234567890</phone>
+        <address>
+            <street>1234 Elm Street</street>
+            <city>Metropolis</city>
+            <postcode>12345</postcode>
+            <country>Fictionland</country>
+        </address>
+        <creditCard>
+            <number>4111111111111111</number>
+            <expiry>12/25</expiry>
+            <cvv>123</cvv>
+        </creditCard>
+    </client>
+    <client>
+        <name>Jane Smith</name>
+        <email>jane.smith@example.com</email>
+        <phone>+9876543210</phone>
+        <address>
+            <street>5678 Oak Avenue</street>
+            <city>Gotham</city>
+            <postcode>54321</postcode>
+            <country>Imaginaria</country>
+        </address>
+        <creditCard>
+            <number>5555555555554444</number>
+            <expiry>11/24</expiry>
+            <cvv>456</cvv>
+        </creditCard>
+    </client>
+</clientData>

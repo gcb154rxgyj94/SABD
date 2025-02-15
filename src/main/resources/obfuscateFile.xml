@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<clientData>
+    <client>
+        <name>Sm9obiBEb2U=</name>
+        <email>am9obi5kb2VAZXhhbXBsZS5jb20=</email>
+        <phone>KzEyMzQ1Njc4OTA=</phone>
+        <address>
+            <street>MTIzNCBFbG0gU3RyZWV0</street>
+            <city>TWV0cm9wb2xpcw==</city>
+            <postcode>MTIzNDU=</postcode>
+            <country>RmljdGlvbmxhbmQ=</country>
+        </address>
+        <creditCard>
+            <number>NDExMTExMTExMTExMTExMQ==</number>
+            <expiry>MTIvMjU=</expiry>
+            <cvv>MTIz</cvv>
+        </creditCard>
+    </client>
+    <client>
+        <name>SmFuZSBTbWl0aA==</name>
+        <email>amFuZS5zbWl0aEBleGFtcGxlLmNvbQ==</email>
+        <phone>Kzk4NzY1NDMyMTA=</phone>
+        <address>
+            <street>NTY3OCBPYWsgQXZlbnVl</street>
+            <city>R290aGFt</city>
+            <postcode>NTQzMjE=</postcode>
+            <country>SW1hZ2luYXJpYQ==</country>
+        </address>
+        <creditCard>
+            <number>NTU1NTU1NTU1NTU1NDQ0NA==</number>
+            <expiry>MTEvMjQ=</expiry>
+            <cvv>NDU2</cvv>
+        </creditCard>
+    </client>
+</clientData>
